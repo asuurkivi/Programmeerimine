@@ -1,5 +1,5 @@
 import getpass
-pw = getpass.getpass("Testi parooli tugevust. Sisesta parool: ")
+pw = getpass.getpass("Testi oma salas6na tugevust. Sisesta salas6na: ")
 if not pw.isalpha() \
 	and not pw.isupper() \
 	and not pw.islower() \
